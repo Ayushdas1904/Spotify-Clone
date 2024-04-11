@@ -1,0 +1,38 @@
+.red-border{
+    border: 2px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.invert{ /*inverts the color of an image*/
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+.translucent{
+    color: rgba(255, 255, 255, 0.5);
+}

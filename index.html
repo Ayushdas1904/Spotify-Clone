@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSpTitle-Black-4588c99025b967475c31695b0743dd1a.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSp-Bold-602e7aefc706aa36c6ec1324b9bbc461.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSpTitle-Bold-b2586b06a2e1522e9d879d84c2792a58.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSp-Book-a00e99ef9996a3a157fb6b746856d04f.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    
+
+</head>
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <img id="logo" class="invert" src="logo.svg" alt="spotify">
+                <ul>
+                    <li><img class="invert" src="home_logo.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search_logo.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="your-library">
+                    <div class="lib">
+                        <img class="your-library invert" src="library_logo.svg"  alt="Your Library">
+                        Your Library
+                    </div>
+                    <img class="playlist invert" src="createPlaylist_logo.svg" alt="playlist">
+                </div>
+                <div class="library-footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/" id=""><span>Legal</span></a></div>
+                    <!-- <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id=""><span>Safety &amp; Privacy Center</span></a></div> -->
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/" id=""><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="arrow">
+                    <button>
+                        <img class="invert" src="left_arrow.svg" alt="left-arrow">
+                    </button>
+                    <button>
+                        <img class="invert" src="right_arrow.svg" alt="right-arrow">
+                    </button>
+                </div>
+                <div class="signin">
+                    <div class="signup">
+                        <button>Sign Up</button>
+                    </div>
+                    <div class="login">
+                        <button>Login</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spotify Playlists -->
+            <div class="spotifyPlaylists bg-grey">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card card1">
+                        <div class="play-button">
+                            <button><img src="playButton.svg" alt="PlayButton"></button>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj">
+                        <h4>Pritam</h4>
+                        <h5 class="translucent">Artist</h5>
+                    </div>
+                    <div class="card card2">
+                        <div class="play-button">
+                            <button><img src="playButton.svg" alt="PlayButton"></button>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                        <h4>Arijit Singh</h4>
+                        <h5 class="translucent">Artist</h5>
+                    </div>
+                    <div class="card card3">
+                        <div class="play-button">
+                            <button><img src="playButton.svg" alt="PlayButton"></button>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj">
+                        <h4>A. R. Rahman</h4>
+                        <h5 class="translucent">Artist</h5>
+                    </div>
+                    <div class="card card4">
+                        <div class="play-button">
+                            <button><img src="playButton.svg" alt="PlayButton"></button>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab676161000051746220fc5e958ab498b96f5835" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj">
+                        <h4>Vishal Mishra</h4>
+                        <h5 class="translucent">Artist</h5>
+                    </div>
+                    <div class="card card5">
+                        <div class="play-button">
+                            <button><img src="playButton.svg" alt="PlayButton"></button>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616100005174fc7c542c04b5f7dc8f1b1c16" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj">
+                        <h4>Anirudh Ravichander</h4>
+                        <h5 class="translucent">Artist</h5>
+                    </div>
+                    <div class="card card6">
+                        <div class="play-button">
+                            <button><img src="playButton.svg" alt="PlayButton"></button>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj">
+                        <h4>Vishal-Shekhar</h4>
+                        <h5 class="translucent">Artist</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
