@@ -155,6 +155,7 @@ body{
 .card{
     width: 250px;
     height: 250px;
+    position: relative;
 }
 
 .card img{
@@ -166,8 +167,23 @@ body{
 }
 
 .play-button{
+    display: flex;
     background-color: lightgreen;
     border-radius: 50%;
     position: absolute;
+    width: 3vw;
+    height: 3vw ;
+    position: absolute;
+    bottom: 75px;
+    right: 5px;
+    align-items:center;
+
+}
+.play-button img{
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    left: 10px;
+
 }
 
